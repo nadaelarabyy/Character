@@ -204,7 +204,6 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
           <label for="personality" style="text-transform: capitalize;">i can describe myself as: </label>
           <div class="container1">
             <ul class="ks-cboxtags">
-                        	<li><input type="checkbox" id="strict" value="strict"><label for="strict">strict</label></li>
             
             <%
             CCOntology o=new CCOntology();
