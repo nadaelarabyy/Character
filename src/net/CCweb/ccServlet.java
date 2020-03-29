@@ -2,7 +2,9 @@ package net.CCweb;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -47,26 +49,37 @@ public class ccServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
-		CCOntology ontology=new CCOntology();
-		try {
-			ArrayList<String> behaviorList=ontology.getBehbaviors();
-			ArrayList<String> personalityList=ontology.getPersonality();
-			ArrayList<String> emotionList=ontology.getEmotions();
-			ArrayList<String> sleepIssueList=ontology.getSleepIssues();
-			request.setAttribute("behavior", behaviorList);
-			request.setAttribute("personality", personalityList);
-			request.setAttribute("emotion", emotionList);
-			request.setAttribute("sleepIssue", sleepIssueList);
-			RequestDispatcher rd=request.getRequestDispatcher("/index.jsp");
-			rd.forward(request, response);
+		String username=request.getParameter("firstname");
+		String[] personality=request.getParameterValues("personality");
+		String wakeup=request.getParameter("wakeupTime");
+		String bedtime=request.getParameter("bedtime");
+	    int sleepDuration=Integer.parseInt(request.getParameter("sleepDuration"));
+	    String[] emotions=request.getParameterValues("emotion");
+	    String[] behavior=request.getParameterValues("behavior");
+	    String[] sleepIssue=request.getParameterValues("sleepIssue");
+	    int rate=Integer.parseInt(request.getParameter("rate"));
+	    String suggestion=request.getParameter("suggestion");
+	    boolean submitButtonPressed = request.getParameter("submit") != null;
+	    if(submitButtonPressed) {
+	    	System.out.println("username: "+username);
+	    	System.out.println("personality: "+Arrays.toString(personality));
+	    	System.out.println("wakeup: "+wakeup);
+	    	System.out.println("bedtime: "+bedtime);
+	    	System.out.println("sleep duration: "+sleepDuration);
+	    	System.out.println("emotions: "+Arrays.toString(emotions));
+	    	System.out.println("behaviors: "+Arrays.toString(behavior));
+	    	System.out.println("sleepIssues: "+Arrays.toString(sleepIssue));
+	    	System.out.println("rating: "+rate);
+	    	System.out.println("suggestions: "+suggestion);
+	    	
+	    }
+	    else 
+	    {
+	    	System.out.println("none baby");
+	    	
+	    }
+		
 
-			
-
-			
-		} catch (OWLOntologyCreationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
 	}
 	

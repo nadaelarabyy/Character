@@ -174,6 +174,12 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
   width:100%;
   top:100%;  
 }
+.separator{
+background-color: white;
+height:30px;
+
+
+ }
 
    </style>
  
@@ -182,28 +188,17 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
 
    <title>Document</title>
 </head>
-<body>
-   <!-- <input class="inp-cbx" id="cbx" type="checkbox" style="display: none;"/>
-   <label class="cbx" for="cbx"><span>
-       <svg width="12px" height="9px" viewbox="0 0 12 9">
-         <polyline points="1 5 4 8 11 1"></polyline>
-       </svg></span><span>Reward yourself with a nap</span></label> -->
-       <!-- <div style="border: green solid;width: fit-content;height: fit-content;margin-left: 45%;">
-        <h1 style="text-transform: capitalize;font-family: sans-serif;color: grey;">sleep habits</h1>
-       
-       </div> -->
-       
-       
+<body>     
        <div class="container">
         <h1 style="margin-left: 35%;
         text-transform: capitalize;font-family: sans-serif;color: grey;">sleep habits</h1>
 
-        <form>
+        <form action="${pageContext.request.contextPath}/sleep" method="post">
           <label for="fname">UserName</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name.." >
           <label for="personality" style="text-transform: capitalize;">i can describe myself as: </label>
           <div class="container1">
-            <ul class="ks-cboxtags">
+            <ul class="ks-cboxtags" >
             
             <%
             CCOntology o=new CCOntology();
@@ -215,27 +210,27 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
             for(int i=0;b.size()>i;i++){
             	
             	%>
-            	<li><input type="checkbox" id="<%=b.get(i) %>" value=<% b.get(i); %>><label for="<%=b.get(i) %>"><% out.print(b.get(i)); %></label></li>
+   
+            	<li><input type="checkbox" name="personality" id="<%=b.get(i) %>" value=<%=b.get(i).replace(" ", "_") %>><label for="<%=b.get(i) %>"><% out.print(b.get(i)); %></label></li>
+            	
             	<% 
             }
-            %>
-          
-        
+            %>   
             </ul>
           
           </div>
       
 
           <label for="wakeupTime" style="text-transform: capitalize;">my usual wakeup time</label>
-          <input type="time" id="appt" name="appt" min="00:00" max="24:00" required>
+          <input type="time" id="appt" name="wakeupTime" min="00:00" max="24:00" required>
           <p style="color:#32CD32;size:0.5px">it has to be in formate HH:MM</p>          
        
           <label for="bedTime" style="text-transform: capitalize;">my usual bedtime time</label>
-          <input type="time" id="appt" name="appt" min="00:00" max="24:00" required>
+          <input type="time" id="appt" name="bedtime" min="00:00" max="24:00" required>
           <p style="color:#32CD32;size:0.5px">it has to be in formate HH:MM</p>  
           
           <label for="sleepDuration">Sleep Duration: </label>
-          <input type="number" id="tentacles" name="tentacles" min="1" max="100">
+          <input type="number" id="tentacles" name="sleepDuration" min="1" max="100">
           <p style="color:#32CD32;size:0.5px">it has to be in an integer</p>  
           
           
@@ -252,7 +247,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
             for(int i=0;b2.size()>i;i++){
             	
             	%>
-            	<li><input type="checkbox" id="<%=b2.get(i) %>" value=<% b2.get(i); %>><label for="<%=b2.get(i) %>"><% out.print(b2.get(i)); %></label></li>
+            	<li><input type="checkbox" name="emotion"  id="<%=b2.get(i) %>" value=<%=b2.get(i).replace(" ", "_") %>><label for="<%=b2.get(i) %>"><% out.print(b2.get(i)); %></label></li>
             	<% 
             }
             %>
@@ -271,7 +266,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
             for(int i=0;b3.size()>i;i++){
             	
             	%>
-            	<li><input type="checkbox" id="<%=b3.get(i)%>" value=<% b3.get(i); %>><label for="<%=b3.get(i)%>"><% out.print(b3.get(i)); %></label></li>
+            	<li><input type="checkbox" name="behavior" id="<%=b3.get(i)%>" value=<%=b3.get(i).replace(" ", "_") %>><label for="<%=b3.get(i)%>"><% out.print(b3.get(i)); %></label></li>
             	<% 
             }
             %>
@@ -289,7 +284,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
             for(int i=0;b4.size()>i;i++){
             	
             	%>
-            	<li><input type="checkbox" id="<%=b4.get(i) %>" value=<% b4.get(i); %>><label for="<%=b4.get(i) %>"><% out.print(b4.get(i)); %></label></li>
+            	<li><input type="checkbox" name="sleepIssue" id="<%=b4.get(i) %>" value=<%=b4.get(i).replace(" ", "_") %>><label for="<%=b4.get(i) %>"><% out.print(b4.get(i)); %></label></li>
             	<% 
             }
             %>
@@ -297,49 +292,47 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
             </ul>
           
           </div>
-          
-        </form>
-      </div>
-      <br><br>
-      <div class="container">
-        <h1 style="margin-left: 35%;
+          <div class="separator"></div>
+          <h1 style="margin-left: 35%;
         text-transform: capitalize;font-family: sans-serif;color: grey;">feedback</h1>
          <label for="rate1" style="text-transform: capitalize;">how well does this represent your daily habits ?  </label>
          <br><br>
-<div class="rating-system1">
-          <input type="radio" name='rate' id="star5" />
+         
+         <div class="rating-system1">
+          <input type="radio" name='rate' value="5" id="star5" />
           <label for="star5"></label>
         
-          <input type="radio" name='rate' id="star4" />
+          <input type="radio" name='rate' value="4" id="star4" />
           <label for="star4"></label>
         
-          <input type="radio" name='rate' id="star3" />
+          <input type="radio" name='rate' value="3" id="star3" />
           <label for="star3"></label>
          
-          <input type="radio" name='rate' id="star2" />
+          <input type="radio" name='rate' value="2" id="star2" />
           <label for="star2"></label>
         
-          <input type="radio" name='rate' id="star1" />
+          <input type="radio" name='rate' value="1" id="star1" />
           <label for="star1"></label>
         
           <div class="text"></div>
         </div>
       <br><br>
-      <label for="comment">Suggestions: </label>
+          <label for="comment">Suggestions: </label>
   
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 100%;
+      <textarea id="subject" name="suggestion" placeholder="Write something.." style="height:200px; width: 100%;
       padding: 12px;
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
       margin-top: 6px;
       margin-bottom: 16px;
-      resize: vertical;"></textarea>
-
-       
-        
-        
+      resize: vertical;"></textarea>  
+       <input type="submit" name="submit" value="Submit" style="width: 25%;margin-left: 53%;">
+          
+        </form>
       </div>
-    <input type="submit" value="Submit" style="width: 25%;margin-left: 53%;">
+      
+
+   
 </body>
 </html>
