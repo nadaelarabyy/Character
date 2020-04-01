@@ -1824,7 +1824,6 @@ RECALL.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an altered circadian rhythm resulting in falling asleep in early evening and awaking very early in the morning.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604348</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:615224</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:164736</oboInOwl:hasDbXref>
@@ -1833,11 +1832,12 @@ RECALL.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050628</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an altered circadian rhythm resulting in falling asleep in early evening and awaking very early in the morning.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advanced sleep phase syndrome</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050628"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an altered circadian rhythm resulting in falling asleep in early evening and awaking very early in the morning.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Advanced_sleep_phase_syndrome</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1848,18 +1848,18 @@ RECALL.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050847">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder characterized by repeated cessation and commencing of breathing that repeatedly disrupts sleep.</obo:IAO_0000115>
-        <obo:IAO_0000115>A sleep disorder of the upper respiratory system that causes the person to stop breathing while asleep.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-03-20T03:57:22Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050847</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder characterized by repeated cessation and commencing of breathing that repeatedly disrupts sleep.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>A sleep disorder of the upper respiratory system that causes the person to stop breathing while asleep.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleep apnea</rdfs:label>
         <owl:priorVersion>MFOMD_0000193</owl:priorVersion>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050847"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder characterized by repeated cessation and commencing of breathing that repeatedly disrupts sleep.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www.mayoclinic.org/diseases-conditions/sleep-apnea/basics/definition/con-20020286</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2765300/</oboInOwl:hasDbXref>
@@ -1872,7 +1872,6 @@ RECALL.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050848">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050847"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep apnea that is characterized by repeated collapse and obstruction of the upper airway during sleep, which results in reduced airflow (hypopnea) or complete airflow cessation (apnea), oxygen desaturation, and arousals from sleep.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-03-20T03:57:22Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G47.3</oboInOwl:hasDbXref>
@@ -1884,11 +1883,12 @@ RECALL.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050848</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep apnea that is characterized by repeated collapse and obstruction of the upper airway during sleep, which results in reduced airflow (hypopnea) or complete airflow cessation (apnea), oxygen desaturation, and arousals from sleep.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obstructive sleep apnea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050848"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep apnea that is characterized by repeated collapse and obstruction of the upper airway during sleep, which results in reduced airflow (hypopnea) or complete airflow cessation (apnea), oxygen desaturation, and arousals from sleep.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Obstructive_sleep_apnea</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www.mayoclinic.org/diseases-conditions/sleep-apnea/basics/definition/con-20020286</oboInOwl:hasDbXref>
@@ -1902,16 +1902,16 @@ RECALL.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_8619"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A recurrent hypersomnia that is characterized by recurring periods of excessive amounts of sleep and altered behavior.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-09-07T02:46:02Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060165</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A recurrent hypersomnia that is characterized by recurring periods of excessive amounts of sleep and altered behavior.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kleine-Levin syndrome</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060165"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A recurrent hypersomnia that is characterized by recurring periods of excessive amounts of sleep and altered behavior.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Kleine-Levin_syndrome</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1922,7 +1922,6 @@ RECALL.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2846">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntarily grinding or clenching of the teeth while sleeping.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8891</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:327.53</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D002012</oboInOwl:hasDbXref>
@@ -1943,14 +1942,9 @@ RECALL.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleep related bruxism</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2846</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntarily grinding or clenching of the teeth while sleeping.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bruxism</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_2846"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntarily grinding or clenching of the teeth while sleeping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Bruxism</oboInOwl:hasDbXref>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_2846"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -1969,18 +1963,18 @@ RECALL.</rdfs:comment>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teeth grinding</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHICD9_2006:306.8</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_2846"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntarily grinding or clenching of the teeth while sleeping.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Bruxism</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/DOID_535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_535">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of mental health that involves disruption of sleep patterns.</obo:IAO_0000115>
-        <obo:IAO_0000115>Primary sleep disorders are those in which none of another mental disorder, a general medical condition or a substance is responsible. 
-
-This disorders are presumed to arise from endogenous abnormalities in sleep-wake generating or timing mechanisms, often complicated by conditioning factors, and are subdivided into: Dyssomnias and Parasomnias.
-
-DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="es">trastornos del sueño</obo:IAO_0000118>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9028</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:307.4</oboInOwl:hasDbXref>
@@ -1989,20 +1983,26 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-organic sleep disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:535</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of mental health that involves disruption of sleep patterns.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>Primary sleep disorders are those in which none of another mental disorder, a general medical condition or a substance is responsible. 
+
+This disorders are presumed to arise from endogenous abnormalities in sleep-wake generating or timing mechanisms, often complicated by conditioning factors, and are subdivided into: Dyssomnias and Parasomnias.
+
+DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleep disorder</rdfs:label>
         <owl:priorVersion>MFOMD_0000087</owl:priorVersion>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of mental health that involves disruption of sleep patterns.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Sleep_disorder</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-organic sleep disorder</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:192453005</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of mental health that involves disruption of sleep patterns.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Sleep_disorder</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2011,7 +2011,6 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8619">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves recurring bouts of excessive amounts of sleepiness.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:327.13</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D006970</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2010_1_31:426451004</oboInOwl:hasDbXref>
@@ -2019,11 +2018,12 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary recurrent hypersomnia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8619</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves recurring bouts of excessive amounts of sleepiness.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recurrent hypersomnia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_8619"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves recurring bouts of excessive amounts of sleepiness.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Hypersomnia</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -2034,7 +2034,6 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8986">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an excessive urge to sleep at inappropriate times, such as while at work.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8985</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000614</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G47.4</oboInOwl:hasDbXref>
@@ -2059,19 +2058,20 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8986</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an excessive urge to sleep at inappropriate times, such as while at work.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_8986"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an excessive urge to sleep at inappropriate times, such as while at work.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Narcolepsy</oboInOwl:hasDbXref>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_8986"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal sleep</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSP2005:2056-7716</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_8986"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves an excessive urge to sleep at inappropriate times, such as while at work.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Narcolepsy</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2080,7 +2080,6 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves abnormal behavior including the acting out of violent or dramatic dreams during the sleep phase with rapid eye movement.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:327.42</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020187</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2010_1_31:415238003</oboInOwl:hasDbXref>
@@ -2088,11 +2087,12 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapid eye movement sleep behavior disorder </oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9091</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves abnormal behavior including the acting out of violent or dramatic dreams during the sleep phase with rapid eye movement.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REM sleep behavior disorder</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9091"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves abnormal behavior including the acting out of violent or dramatic dreams during the sleep phase with rapid eye movement.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Rapid_eye_movement_behavior_disorder</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -2103,7 +2103,6 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9207">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntary limb movement during sleep.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:327.51</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020189</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2010_1_31:418763003</oboInOwl:hasDbXref>
@@ -2111,11 +2110,12 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nocturnal myoclonus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9207</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntary limb movement during sleep.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">periodic limb movement disorder</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9207"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep disorder that involves involuntary limb movement during sleep.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Periodic_limb_movement_disorder</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -2126,7 +2126,6 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050847"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep apnea that is characterized by a malfunction of the basic neurological controls for breathing rate and the failure to give the signal to inhale, causing the individual to miss one or more cycles of breathing.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G47.31</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:327.21</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020182</oboInOwl:hasDbXref>
@@ -2139,11 +2138,12 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9220</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep apnea that is characterized by a malfunction of the basic neurological controls for breathing rate and the failure to give the signal to inhale, causing the individual to miss one or more cycles of breathing.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central sleep apnea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9220"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sleep apnea that is characterized by a malfunction of the basic neurological controls for breathing rate and the failure to give the signal to inhale, causing the individual to miss one or more cycles of breathing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Central_sleep_apnea</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www.mayoclinic.org/diseases-conditions/sleep-apnea/basics/definition/con-20020286</oboInOwl:hasDbXref>
@@ -2155,8 +2155,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/GO_0007610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007610">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The internally coordinated responses (actions or inactions) of animals (individuals or groups) to internal or external stimuli, via a mechanism that involves nervous system activity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The internally coordinated responses (actions or inactions) of animals (individuals or groups) to internal or external stimuli, via a mechanism that involves nervous system activity.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior</rdfs:label>
     </owl:Class>
     
@@ -2166,8 +2166,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042755">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific behavior of an organism relating to the intake of food, any substance (usually solid) that can be metabolized by an organism to give energy and build tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific behavior of an organism relating to the intake of food, any substance (usually solid) that can be metabolized by an organism to give energy and build tissue.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eating behavior</rdfs:label>
     </owl:Class>
     
@@ -2177,8 +2177,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042756">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific behavior of an organism relating to the intake of liquids, especially water.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific behavior of an organism relating to the intake of liquids, especially water.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking behavior</rdfs:label>
     </owl:Class>
     
@@ -2189,8 +2189,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060273">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000031"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crying behavior</rdfs:label>
     </owl:Class>
     
@@ -2218,9 +2218,9 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An emotion process is a complex mental process that is a synchronized aggregate of constituent mental processes including an appraisal process as part, and which gives rise to an action tendency.</obo:IAO_0000115>
         <obo:MFOEM_000010>occurrent emotion</obo:MFOEM_000010>
         <obo:MFOEM_000010>short-term emotion</obo:MFOEM_000010>
+        <rdfs:isDefinedBy>An emotion process is a complex mental process that is a synchronized aggregate of constituent mental processes including an appraisal process as part, and which gives rise to an action tendency.</rdfs:isDefinedBy>
         <rdfs:label>emotion process</rdfs:label>
     </owl:Class>
     
@@ -2229,7 +2229,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/MFOEM_000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000002">
-        <obo:IAO_0000115>An appraisal process is a mental process that gives rise to an appraisal.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal process is a mental process that gives rise to an appraisal.</rdfs:isDefinedBy>
         <rdfs:label>appraisal process</rdfs:label>
     </owl:Class>
     
@@ -2238,7 +2238,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/MFOEM_000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000003">
-        <obo:IAO_0000115>A physiological response to emotion process is a bodily process which encompasses all the neurophysiological changes caused by the appraisal, which take place in the central nervous system (CNS), neuro-endocrine system (NES) and autonomous nervous system (ANS).</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A physiological response to emotion process is a bodily process which encompasses all the neurophysiological changes caused by the appraisal, which take place in the central nervous system (CNS), neuro-endocrine system (NES) and autonomous nervous system (ANS).</rdfs:isDefinedBy>
         <rdfs:label>physiological response to emotion process</rdfs:label>
     </owl:Class>
     
@@ -2248,8 +2248,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <obo:IAO_0000115>An emotional behavioural process is the behaviour of the organism in response to the appraisal, which includes the characteristic facial expressions for particular emotion types.</obo:IAO_0000115>
         <rdfs:comment>This branch is still very much under construction and will be worked on in collaboration with the Behaviour Ontology (George Gkoutos). </rdfs:comment>
+        <rdfs:isDefinedBy>An emotional behavioural process is the behaviour of the organism in response to the appraisal, which includes the characteristic facial expressions for particular emotion types.</rdfs:isDefinedBy>
         <rdfs:label>emotional behavioural process</rdfs:label>
     </owl:Class>
     
@@ -2264,7 +2264,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An appraisal is a cognitive representation which represents an evaluation of the relevance of some triggering object or event to the organism. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal is a cognitive representation which represents an evaluation of the relevance of some triggering object or event to the organism.</rdfs:isDefinedBy>
         <rdfs:label>appraisal</rdfs:label>
     </owl:Class>
     
@@ -2274,7 +2274,6 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000195"/>
-        <obo:IAO_0000115>The subjective emotional feeling is that (fiat) part of the emotion process by which the organism experiences its own emotion.</obo:IAO_0000115>
         <obo:MFOEM_000010>affective consciousness</obo:MFOEM_000010>
         <rdfs:comment>Excluded the following subjective feelings which appear on the GRID questionnaire since they seem debatable to what extent they are really *feelings* and to what extent they are actually *evaluations* or other things:
 
@@ -2284,6 +2283,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
 
 </rdfs:comment>
+        <rdfs:isDefinedBy>The subjective emotional feeling is that (fiat) part of the emotion process by which the organism experiences its own emotion.</rdfs:isDefinedBy>
         <rdfs:label>subjective emotional feeling</rdfs:label>
     </owl:Class>
     
@@ -2315,12 +2315,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Anger is a negative emotion, characterised by feelings of unpleasantness and high arousal, in the form of antagonistic feelings and action tendencies. [Source: OCEAS]
-</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="fr">colère</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">ira</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">wut</obo:MFOEM_000010>
         <obo:MFOEM_000165>angry</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Anger is a negative emotion, characterised by feelings of unpleasantness and high arousal, in the form of antagonistic feelings and action tendencies. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">anger</rdfs:label>
     </owl:Class>
     
@@ -2336,11 +2335,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An unpleasant emotion closely related to anger but lower in intensity and without the moral dimension of blame and seriousness that is implicated in anger. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">irritación</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">irritation</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">Ärger</obo:MFOEM_000010>
         <obo:MFOEM_000165>irritated</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An unpleasant emotion closely related to anger but lower in intensity and without the moral dimension of blame and seriousness that is implicated in anger. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>irritation</rdfs:label>
     </owl:Class>
     
@@ -2380,7 +2379,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000004"/>
-        <obo:IAO_0000115>Any behaviour that is intended to harm another person who wants to avoid the harm. [Source: OCEAS]</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Any behaviour that is intended to harm another person who wants to avoid the harm. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>aggression</rdfs:label>
     </owl:Class>
     
@@ -2396,8 +2395,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Grief is an intense negative emotion following a bereavement, i.e. the loss of a significant person through that person&apos;s death. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000165>grieving</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Grief is an intense negative emotion following a bereavement, i.e. the loss of a significant person through that person&apos;s death. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>grief</rdfs:label>
     </owl:Class>
     
@@ -2407,7 +2406,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000015"/>
-        <obo:IAO_0000115>Violence is aggression that has extreme physical harm as its goal. [Source: OCEAS]</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Violence is aggression that has extreme physical harm as its goal. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>violence</rdfs:label>
     </owl:Class>
     
@@ -2423,11 +2422,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative emotion generally elicited by the negative evaluation of others and their actions. Usually elicited by violations of community codes. Closely related to anger and disgust. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">desprecio</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">mépris</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">verachtung</obo:MFOEM_000010>
         <obo:MFOEM_000165>contemptuous</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative emotion generally elicited by the negative evaluation of others and their actions. Usually elicited by violations of community codes. Closely related to anger and disgust. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>contempt</rdfs:label>
     </owl:Class>
     
@@ -2443,11 +2442,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative emotion which guards the body against dangerous foods and microbial infections. The basic physiological disgust has also culturally evolved to incorporate moral disgust which protects the self from nonphysical threats such as moral violations.  [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">asco</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">dégoût</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">ekel</obo:MFOEM_000010>
         <obo:MFOEM_000165>disgusted</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative emotion which guards the body against dangerous foods and microbial infections. The basic physiological disgust has also culturally evolved to incorporate moral disgust which protects the self from nonphysical threats such as moral violations.  [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>disgust</rdfs:label>
     </owl:Class>
     
@@ -2457,7 +2456,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000019"/>
-        <obo:IAO_0000115>Disgust elicited by &quot;contaminated&quot; food substances: rotten food, culturally variable &quot;bad&quot; food, certain animals associated with rotten food (maggots, rats), and every body product except tears. [Source: OCEAS]</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Disgust elicited by &quot;contaminated&quot; food substances: rotten food, culturally variable &quot;bad&quot; food, certain animals associated with rotten food (maggots, rats), and every body product except tears. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>core disgust</rdfs:label>
     </owl:Class>
     
@@ -2467,7 +2466,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000019"/>
-        <obo:IAO_0000115>Disgust elicited by poor hygeine, inappropriate sex, gore or violations of bodily boundaries, and death or the odor of decay. [Source: OCEAS]</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Disgust elicited by poor hygeine, inappropriate sex, gore or violations of bodily boundaries, and death or the odor of decay. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>animal-nature disgust</rdfs:label>
     </owl:Class>
     
@@ -2477,7 +2476,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000019"/>
-        <obo:IAO_0000115>Disgust elicited by contact with others, especially contact with strangers or other individuals or groups we are averse to. [Source: OCEAS]</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Disgust elicited by contact with others, especially contact with strangers or other individuals or groups we are averse to. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>interpersonal disgust</rdfs:label>
     </owl:Class>
     
@@ -2503,7 +2502,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Disgust elicited by some kinds of especially egregious moral violations. [Source: OCEAS]</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Disgust elicited by some kinds of especially egregious moral violations. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>moral disgust</rdfs:label>
     </owl:Class>
     
@@ -2519,11 +2518,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative emotion aroused when a person feels threatened by a rival in his or her relationship with another individual, in particular an intimate partner. Involves feelings of threat, fear, suspicion, distrust, anxiety, anger, betrayal, and rejection. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">celos</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">eifersucht</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">jalousie</obo:MFOEM_000010>
         <obo:MFOEM_000165>jealous</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative emotion aroused when a person feels threatened by a rival in his or her relationship with another individual, in particular an intimate partner. Involves feelings of threat, fear, suspicion, distrust, anxiety, anger, betrayal, and rejection. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>jealousy</rdfs:label>
     </owl:Class>
     
@@ -2555,11 +2554,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An activated, aversive emotion that motivates attempts to cope with events that provide threats to the survival or well-being of organisms. Characterised by feelings of threat and impending doom, and by an urge to get out of the situation. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="de">angst</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">miedo</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">peur</obo:MFOEM_000010>
         <obo:MFOEM_000165>afraid</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An activated, aversive emotion that motivates attempts to cope with events that provide threats to the survival or well-being of organisms. Characterised by feelings of threat and impending doom, and by an urge to get out of the situation. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>fear</rdfs:label>
     </owl:Class>
     
@@ -2585,11 +2584,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative, aversive emotion provoked by the prospect of future threat. Distinguished from fear since it is triggered by a distal threat whereas fear is triggered by an immediate threat. Often gradual and long-lasting, whereas fear usually has sudden onset and offset.   [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">ansiedad</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">anxiété</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">besorgnis</obo:MFOEM_000010>
         <obo:MFOEM_000165>anxious</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative, aversive emotion provoked by the prospect of future threat. Distinguished from fear since it is triggered by a distal threat whereas fear is triggered by an immediate threat. Often gradual and long-lasting, whereas fear usually has sudden onset and offset.   [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>anxiety</rdfs:label>
     </owl:Class>
     
@@ -2605,11 +2604,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative emotion in response to a stressful elicitor. May be acute or chronic.  Associated with health implications, such as impaired resistance to infectious diseases. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">estrés</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">stress</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">stress</obo:MFOEM_000010>
         <obo:MFOEM_000165>stressed</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative emotion in response to a stressful elicitor. May be acute or chronic.  Associated with health implications, such as impaired resistance to infectious diseases. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>stress (emotion)</rdfs:label>
     </owl:Class>
     
@@ -2625,11 +2624,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative, high intensity emotion characterised by loss of hope and loss of interest. Associated with action tendencies of harm to self or others. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">desesperación</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">désespoir</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">verzweiflung</obo:MFOEM_000010>
         <obo:MFOEM_000165>despairing</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative, high intensity emotion characterised by loss of hope and loss of interest. Associated with action tendencies of harm to self or others. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>despair</rdfs:label>
     </owl:Class>
     
@@ -2639,8 +2638,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000004"/>
-        <obo:IAO_0000115>A multimodal behaviour consisting of tears, non-verbal vocalisations (wails, sobs), and facial expressions of distress. [Source: OCEAS]</obo:IAO_0000115>
         <rdfs:comment>Not sure whether this should be seen as a synonym for &apos;having tears in the eyes&apos; -- there probably need to be different degrees of crying. </rdfs:comment>
+        <rdfs:isDefinedBy>A multimodal behaviour consisting of tears, non-verbal vocalisations (wails, sobs), and facial expressions of distress. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>crying</rdfs:label>
     </owl:Class>
     
@@ -2666,11 +2665,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Surprise is a neutral emotion caused by encountering unexpected events of all kinds. May be experienced as negative if the surprising event is evaluated as negative, or positive if the surprising event is evaluated as positive. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">sorpresa</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">surprise</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">Überraschung</obo:MFOEM_000010>
         <obo:MFOEM_000165>surprised</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Surprise is a neutral emotion caused by encountering unexpected events of all kinds. May be experienced as negative if the surprising event is evaluated as negative, or positive if the surprising event is evaluated as positive. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>surprise</rdfs:label>
     </owl:Class>
     
@@ -2686,11 +2685,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Interest is a positive emotion which motivates learning, exploration and curiosity. Feelings of interest are associated with the novelty and complexity of stimuli. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="de">interesse</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">interés</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">intérêt</obo:MFOEM_000010>
         <obo:MFOEM_000165>interested</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Interest is a positive emotion which motivates learning, exploration and curiosity. Feelings of interest are associated with the novelty and complexity of stimuli. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>interest</rdfs:label>
     </owl:Class>
     
@@ -2700,11 +2699,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000042"/>
-        <obo:IAO_0000115>A pleasant, positive emotion which arises in safe and familiar circumstances, when people have made progress towards important personal goals, especially when the progress is better than expected. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="de">freude</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">gozo</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">joie</obo:MFOEM_000010>
         <obo:MFOEM_000165>joyful</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A pleasant, positive emotion which arises in safe and familiar circumstances, when people have made progress towards important personal goals, especially when the progress is better than expected. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>joy</rdfs:label>
     </owl:Class>
     
@@ -2736,11 +2735,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A positively experienced emotion which is sought out (approached) and is associated with happiness, enjoyment, and satisfaction.  [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">placer</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">plaisir</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">vergnügen</obo:MFOEM_000010>
         <obo:MFOEM_000165>pleased</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A positively experienced emotion which is sought out (approached) and is associated with happiness, enjoyment, and satisfaction.  [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>pleasure (emotion)</rdfs:label>
     </owl:Class>
     
@@ -2750,8 +2749,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000035"/>
-        <obo:IAO_0000115>Pleasure in smell, touch, sight, sound and taste. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000165>sensory pleasure</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Pleasure in smell, touch, sight, sound and taste. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>sensory pleasure</rdfs:label>
     </owl:Class>
     
@@ -2761,8 +2760,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000035"/>
-        <obo:IAO_0000115>Pleasure derived from mastery, including the experience of flow. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000165>a feeling of mastery</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Pleasure derived from mastery, including the experience of flow. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>mastery pleasure</rdfs:label>
     </owl:Class>
     
@@ -2772,8 +2771,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000035"/>
-        <obo:IAO_0000115>Pleasure derived from social contact. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000165>social pleasure</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Pleasure derived from social contact. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>social pleasure</rdfs:label>
     </owl:Class>
     
@@ -2809,11 +2808,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A positive emotion associated with the appraisal of one&apos;s positive social worth, a signal that one is likely to be socially accepted. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="fr">fierté</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">orgullo</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">stolz</obo:MFOEM_000010>
         <obo:MFOEM_000165>proud</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A positive emotion associated with the appraisal of one&apos;s positive social worth, a signal that one is likely to be socially accepted. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>pride</rdfs:label>
     </owl:Class>
     
@@ -2829,11 +2828,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A positive emotion which is experienced in reaction to a positive experience or event. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="fr">bonheur</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">felicidad</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">glück</obo:MFOEM_000010>
         <obo:MFOEM_000165>happy</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A positive emotion which is experienced in reaction to a positive experience or event. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>happiness</rdfs:label>
     </owl:Class>
     
@@ -2883,11 +2882,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000042"/>
-        <obo:IAO_0000115>A pleasant emotion, which can be defined as a milder form of joy. Associated with physical inactivity (&apos;do nothing&apos; action tendencies). [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="fr">contentement</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">satisfacción</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">zufriedenheit</obo:MFOEM_000010>
         <obo:MFOEM_000165>contented</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A pleasant emotion, which can be defined as a milder form of joy. Associated with physical inactivity (&apos;do nothing&apos; action tendencies). [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>contentment</rdfs:label>
     </owl:Class>
     
@@ -2903,11 +2902,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Disappointment is a negative emotion which is triggered by the disconfirmation of the prospect of a desirable event. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="fr">Déception</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">desilusión</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">enttäuschung</obo:MFOEM_000010>
         <obo:MFOEM_000165>disappointed</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>Disappointment is a negative emotion which is triggered by the disconfirmation of the prospect of a desirable event. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>disappointment</rdfs:label>
     </owl:Class>
     
@@ -2923,11 +2922,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="es">An emotion evoked for a person who is in distress. The conditions for compassion involve perceiving the other as in need, and valuing the other&apos;s welfare. Associated with altruistic motivation. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">compasión</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">compassion</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">mitgefühl</obo:MFOEM_000010>
         <obo:MFOEM_000165>compassionate</obo:MFOEM_000165>
+        <rdfs:isDefinedBy xml:lang="es">An emotion evoked for a person who is in distress. The conditions for compassion involve perceiving the other as in need, and valuing the other&apos;s welfare. Associated with altruistic motivation. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>compassion</rdfs:label>
     </owl:Class>
     
@@ -2943,11 +2942,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A self-conscious emotion that occurs when a person brings about a negative outcome by acts of commission or omission. Associated wtih violations of internal or external moral standards. Closely related to embarrassment and shame. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="es">culpa</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">culpabilité</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="de">schuld</obo:MFOEM_000010>
         <obo:MFOEM_000165>guilty</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A self-conscious emotion that occurs when a person brings about a negative outcome by acts of commission or omission. Associated wtih violations of internal or external moral standards. Closely related to embarrassment and shame. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>guilt</rdfs:label>
     </owl:Class>
     
@@ -2998,11 +2997,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A negative emotion felt when an event is appraised as unpleasant, obstructive to one&apos;s goals and concerns, and one feels unable to cope with it or modify it. [Source: OCEAS]</obo:IAO_0000115>
         <obo:MFOEM_000010 xml:lang="de">trauer</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="fr">tristesse</obo:MFOEM_000010>
         <obo:MFOEM_000010 xml:lang="es">tristeza</obo:MFOEM_000010>
         <obo:MFOEM_000165>sad</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A negative emotion felt when an event is appraised as unpleasant, obstructive to one&apos;s goals and concerns, and one feels unable to cope with it or modify it. [Source: OCEAS]</rdfs:isDefinedBy>
         <rdfs:label>sadness</rdfs:label>
     </owl:Class>
     
@@ -3012,7 +3011,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal which represents an evaluation of how suddenly an event occurred. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal which represents an evaluation of how suddenly an event occurred.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of suddenness</rdfs:label>
     </owl:Class>
     
@@ -3022,7 +3021,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of how familiar an object or event is. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of how familiar an object or event is.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of familiarity</rdfs:label>
     </owl:Class>
     
@@ -3032,7 +3031,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of how predictable an event was. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of how predictable an event was.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of predictability</rdfs:label>
     </owl:Class>
     
@@ -3042,7 +3041,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of whether an event was expected to occur. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of whether an event was expected to occur.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of expectedness</rdfs:label>
     </owl:Class>
     
@@ -3052,8 +3051,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of the pleasantness of an object or event. </obo:IAO_0000115>
         <rdfs:comment>GRID questionnaire distinguishes between appraisal of pleasantness FOR SELF and appraisal of pleasantness FOR SOME OTHER.  So far we have defined appraisal as evaluation of relevance FOR SELF, thus, we only include one appraisal of pleasantness (for the time being), although we may expand this later -- although I suspect that all or most of the appraisal types would have to be so qualified. </rdfs:comment>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of the pleasantness of an object or event.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of pleasantness</rdfs:label>
     </owl:Class>
     
@@ -3063,8 +3062,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000057"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event occurred suddenly. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is sudden</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event occurred suddenly.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as sudden</rdfs:label>
     </owl:Class>
     
@@ -3074,8 +3073,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000057"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event did not occur suddenly. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is not sudden</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event did not occur suddenly.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not sudden</rdfs:label>
     </owl:Class>
     
@@ -3085,8 +3084,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000058"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an object or event is familiar. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is familiar</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an object or event is familiar.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as familiar</rdfs:label>
     </owl:Class>
     
@@ -3096,8 +3095,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000058"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an object or event is not familiar. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is not familiar</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an object or event is not familiar.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not familiar</rdfs:label>
     </owl:Class>
     
@@ -3107,8 +3106,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000059"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was easy to predict. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is predictable</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was easy to predict.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as predictable</rdfs:label>
     </owl:Class>
     
@@ -3118,8 +3117,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000059"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was not easy to predict. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is not predictable</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was not easy to predict.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not predictable</rdfs:label>
     </owl:Class>
     
@@ -3129,8 +3128,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000060"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was expected. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is expected</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was expected.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as expected</rdfs:label>
     </owl:Class>
     
@@ -3140,8 +3139,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000060"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was not expected.</obo:IAO_0000115>
         <obo:MFOEM_000165>this is not expected</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was not expected.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not expected</rdfs:label>
     </owl:Class>
     
@@ -3151,8 +3150,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000061"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an object or event is pleasant.</obo:IAO_0000115>
         <obo:MFOEM_000165>this is pleasant</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an object or event is pleasant.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as pleasant</rdfs:label>
     </owl:Class>
     
@@ -3162,8 +3161,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000061"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an object or event is unpleasant.</obo:IAO_0000115>
         <obo:MFOEM_000165>this is unpleasant</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an object or event is unpleasant.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as unpleasant</rdfs:label>
     </owl:Class>
     
@@ -3173,8 +3172,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of whether an event or object is important to the person&apos;s goals or needs. </obo:IAO_0000115>
         <rdfs:comment>Like pleasantness, the GRID questionnaire distinguishes between evaluations of goal importance/relevance for SELF and for an OTHER. </rdfs:comment>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of whether an event or object is important to the person&apos;s goals or needs.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of goal importance</rdfs:label>
     </owl:Class>
     
@@ -3184,8 +3183,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000072"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that the event or object is important to the person&apos;s goals or needs. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is important for my goals</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that the event or object is important to the person&apos;s goals or needs.</rdfs:isDefinedBy>
         <rdfs:label>evaluation as important to goals</rdfs:label>
     </owl:Class>
     
@@ -3195,8 +3194,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000072"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that the event or object is not important to the person&apos;s goals or needs. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is not important for my goals</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that the event or object is not important to the person&apos;s goals or needs.</rdfs:isDefinedBy>
         <rdfs:label>evaluation as not important to goals</rdfs:label>
     </owl:Class>
     
@@ -3206,7 +3205,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of who or what caused an event. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of who or what caused an event.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of causal agency</rdfs:label>
     </owl:Class>
     
@@ -3216,8 +3215,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000075"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was caused by the self. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is being caused by me</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was caused by the self.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as caused by self</rdfs:label>
     </owl:Class>
     
@@ -3227,8 +3226,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000075"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was caused by chance. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is being caused by chance</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was caused by chance.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as caused by chance</rdfs:label>
     </owl:Class>
     
@@ -3238,8 +3237,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000075"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was caused by another person.</obo:IAO_0000115>
         <obo:MFOEM_000165>this is being caused by someone else</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was caused by another person.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as caused by an other</rdfs:label>
     </owl:Class>
     
@@ -3249,9 +3248,9 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling of feeling good, positive.  </obo:IAO_0000115>
         <obo:MFOEM_000010>feeling positive</obo:MFOEM_000010>
         <obo:MFOEM_000165>good</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of feeling good, positive.</rdfs:isDefinedBy>
         <rdfs:label>feeling good</rdfs:label>
     </owl:Class>
     
@@ -3261,8 +3260,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling of tiredness, needing sleep.</obo:IAO_0000115>
         <obo:MFOEM_000165>tired</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of tiredness, needing sleep.</rdfs:isDefinedBy>
         <rdfs:label>feeling tired</rdfs:label>
     </owl:Class>
     
@@ -3272,8 +3271,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000075"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was caused by a supernatural agent (God, the ancestors, ghosts...).</obo:IAO_0000115>
         <obo:MFOEM_000165>this is being caused supernaturally</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was caused by a supernatural agent (God, the ancestors, ghosts...).</rdfs:isDefinedBy>
         <rdfs:label>appraisal as caused supernaturally</rdfs:label>
     </owl:Class>
     
@@ -3283,7 +3282,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of the causal intent of the person who (is evaluated to have) caused an event.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of the causal intent of the person who (is evaluated to have) caused an event.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of causal intent</rdfs:label>
     </owl:Class>
     
@@ -3293,8 +3292,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000082"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was deliberately (intentionally) caused. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is being deliberately caused</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was deliberately (intentionally) caused.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as deliberate</rdfs:label>
     </owl:Class>
     
@@ -3304,8 +3303,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000082"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event was caused unintentionally.</obo:IAO_0000115>
         <obo:MFOEM_000165>this is not being deliberately caused</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event was caused unintentionally.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as unintended</rdfs:label>
     </owl:Class>
     
@@ -3315,8 +3314,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of the desirability of the expected consequences of an event. </obo:IAO_0000115>
         <rdfs:comment>Distinguished in GRID questionnaire between FOR SELF and FOR OTHER. </rdfs:comment>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of the desirability of the expected consequences of an event.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of desirability of consequences</rdfs:label>
     </owl:Class>
     
@@ -3326,8 +3325,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000085"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that the expected consequences of an event are desirable. </obo:IAO_0000115>
         <obo:MFOEM_000165>this has desirable consequences</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that the expected consequences of an event are desirable.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as desirable consequences</rdfs:label>
     </owl:Class>
     
@@ -3337,8 +3336,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000085"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that the expected consequences of an event are undesirable. </obo:IAO_0000115>
         <obo:MFOEM_000165>this has undesirable consequences</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that the expected consequences of an event are undesirable.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as undesirable consequences</rdfs:label>
     </owl:Class>
     
@@ -3348,7 +3347,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation of the urgency of responding to an event. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation of the urgency of responding to an event.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of urgency of response</rdfs:label>
     </owl:Class>
     
@@ -3358,8 +3357,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000088"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event requires an urgent (immediate) response. </obo:IAO_0000115>
         <obo:MFOEM_000165>a response is needed urgently</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event requires an urgent (immediate) response.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as urgent response</rdfs:label>
     </owl:Class>
     
@@ -3369,8 +3368,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000088"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an event does not require an urgent response. </obo:IAO_0000115>
         <obo:MFOEM_000165>a response is needed but not urgently</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an event does not require an urgent response.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not urgent response</rdfs:label>
     </owl:Class>
     
@@ -3380,7 +3379,7 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal which represents a judgement about how avoidable the expected consequences of an event will be. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal which represents a judgement about how avoidable the expected consequences of an event will be.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of avoidability of consequences</rdfs:label>
     </owl:Class>
     
@@ -3390,8 +3389,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000091"/>
-        <obo:IAO_0000115>An appraisal that represents a judgement that the expected consequences of an event are in principle avoidable or modfiable. </obo:IAO_0000115>
         <obo:MFOEM_000165>there are consequences but they are avoidable</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents a judgement that the expected consequences of an event are in principle avoidable or modfiable.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as avoidable consequences</rdfs:label>
     </owl:Class>
     
@@ -3401,8 +3400,8 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000091"/>
-        <obo:IAO_0000115>An appraisal that represents a judgement that the expected consequences of an event will be difficult to avoid or modify. </obo:IAO_0000115>
         <obo:MFOEM_000165>there are consequences and they are unavoidable</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents a judgement that the expected consequences of an event will be difficult to avoid or modify.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as unavoidable consequences</rdfs:label>
     </owl:Class>
     
@@ -3412,10 +3411,10 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal which represents a judgement about whether an event is consistent with the person&apos;s standards or ideals. </obo:IAO_0000115>
         <rdfs:comment>Can also be defined FOR SELF and FOR OTHER, where a special case of OTHER is &apos;society&apos; (=&gt; a judgement that an event violated laws or socially accepted norms)
 
 May want to distinguish violation of &apos;standards&apos; from that of &apos;ideals&apos;, &apos;norms&apos; and &apos;laws&apos;. At the moment they are all lumped together. </rdfs:comment>
+        <rdfs:isDefinedBy>An appraisal which represents a judgement about whether an event is consistent with the person&apos;s standards or ideals.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of congruence with ideals</rdfs:label>
     </owl:Class>
     
@@ -3425,8 +3424,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000094"/>
-        <obo:IAO_0000115>An appraisal which represents a judgement that an event is consistent with the person&apos;s standards or ideals.</obo:IAO_0000115>
         <obo:MFOEM_000165>this is in line with my ideals</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal which represents a judgement that an event is consistent with the person&apos;s standards or ideals.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as congruent with ideals</rdfs:label>
     </owl:Class>
     
@@ -3436,8 +3435,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000094"/>
-        <obo:IAO_0000115>An appraisal that represents a judgement that an event is inconsistent with a person&apos;s standards or ideals. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is against my ideals</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents a judgement that an event is inconsistent with a person&apos;s standards or ideals.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not congruent with ideals</rdfs:label>
     </owl:Class>
     
@@ -3447,7 +3446,7 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal which represents a judgement about the direction and nature of the social attention surrounding an event. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal which represents a judgement about the direction and nature of the social attention surrounding an event.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of social attention</rdfs:label>
     </owl:Class>
     
@@ -3457,8 +3456,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000097"/>
-        <obo:IAO_0000115>An appraisal which represents a judgement that the person is at the centre of the surrounding social attention. (That is, that all other nearby persons are paying attention to him/her.)</obo:IAO_0000115>
         <obo:MFOEM_000165>I am at the centre of attention</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal which represents a judgement that the person is at the centre of the surrounding social attention. (That is, that all other nearby persons are paying attention to him/her.)</rdfs:isDefinedBy>
         <rdfs:label>appraisal as being at the centre of attention</rdfs:label>
     </owl:Class>
     
@@ -3468,8 +3467,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000097"/>
-        <obo:IAO_0000115>An appraisal that represents a judgement that a person is not at the centre of the surrounding social attention. </obo:IAO_0000115>
         <obo:MFOEM_000165>I am not at the centre of attention</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents a judgement that a person is not at the centre of the surrounding social attention.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not being at the centre of attention</rdfs:label>
     </owl:Class>
     
@@ -3479,7 +3478,7 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>Appraisal which represents an evaluation of whether the person was treated justly or unjustly by another person. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Appraisal which represents an evaluation of whether the person was treated justly or unjustly by another person.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of justice of treatment</rdfs:label>
     </owl:Class>
     
@@ -3489,8 +3488,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000100"/>
-        <obo:IAO_0000115>An appraisal which represents an evaluation that the person was treated justly by another person. </obo:IAO_0000115>
         <obo:MFOEM_000165>I am being treated justly</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal which represents an evaluation that the person was treated justly by another person.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as just treatment</rdfs:label>
     </owl:Class>
     
@@ -3500,8 +3499,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000100"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that the person was treated unjustly by another person. (Injustice.) </obo:IAO_0000115>
         <obo:MFOEM_000165>I am being treated unjustly</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that the person was treated unjustly by another person. (Injustice.)</rdfs:isDefinedBy>
         <rdfs:label>appraisal as unjust treatment</rdfs:label>
     </owl:Class>
     
@@ -3511,7 +3510,7 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal which represents an evaluation of the dangerousness of an object or situation. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal which represents an evaluation of the dangerousness of an object or situation.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of dangerousness</rdfs:label>
     </owl:Class>
     
@@ -3521,8 +3520,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000103"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an object or situation is dangerous to the person. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is dangerous</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an object or situation is dangerous to the person.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as dangerous</rdfs:label>
     </owl:Class>
     
@@ -3532,8 +3531,8 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000103"/>
-        <obo:IAO_0000115>An appraisal that represents an evaluation that an object or situation is not dangerous to the person. </obo:IAO_0000115>
         <obo:MFOEM_000165>this is not dangerous</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>An appraisal that represents an evaluation that an object or situation is not dangerous to the person.</rdfs:isDefinedBy>
         <rdfs:label>appraisal as not dangerous</rdfs:label>
     </owl:Class>
     
@@ -3543,11 +3542,11 @@ May want to distinguish violation of &apos;standards&apos; from that of &apos;id
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents a belief that something or someone that is important to the person has been lost to the person. </obo:IAO_0000115>
         <obo:MFOEM_000165>I have irrevocably lost something important</obo:MFOEM_000165>
         <rdfs:comment>This appraisal category stands alone:  appraisal of loss is not a continuum like the others (pleasant---unpleasant; expected---unexpected).  Rather it is quite discrete, loss or no loss, and is better defined by WHAT has been lost, or at least, in which relation the thing that has been lost stands to the person experiencing the emotion.  Loss of a loved person, loss of the expectation of achieving a hoped for life goal, and loss of a limb are all kinds of loss.  
 
 While it is tempting not to categorise this as an appraisal at all, it should be noted that the loss does not actually have to occur -- it only has to be believed, judged, or (in other words) appraised to have occurred -- for the emotion to take place. </rdfs:comment>
+        <rdfs:isDefinedBy>An appraisal that represents a belief that something or someone that is important to the person has been lost to the person.</rdfs:isDefinedBy>
         <rdfs:label>appraisal of loss</rdfs:label>
     </owl:Class>
     
@@ -3557,8 +3556,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling of being at ease, comfortable, relaxed. </obo:IAO_0000115>
         <obo:MFOEM_000165>at ease</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of being at ease, comfortable, relaxed.</rdfs:isDefinedBy>
         <rdfs:label>feeling at ease</rdfs:label>
     </owl:Class>
     
@@ -3568,9 +3567,9 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling of feeling bad, negative.</obo:IAO_0000115>
         <obo:MFOEM_000010>feeling negative</obo:MFOEM_000010>
         <obo:MFOEM_000165>bad</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of feeling bad, negative.</rdfs:isDefinedBy>
         <rdfs:label>feeling bad</rdfs:label>
     </owl:Class>
     
@@ -3580,8 +3579,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling of having lots of energy, being energetic. </obo:IAO_0000115>
         <obo:MFOEM_000165>energetic</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of having lots of energy, being energetic.</rdfs:isDefinedBy>
         <rdfs:label>feeling energetic</rdfs:label>
     </owl:Class>
     
@@ -3591,8 +3590,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling that one is in control of oneself, that one is fully the agent of one&apos;s behavior. </obo:IAO_0000115>
         <obo:MFOEM_000165>in control</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling that one is in control of oneself, that one is fully the agent of one&apos;s behavior.</rdfs:isDefinedBy>
         <rdfs:label>feeling in control</rdfs:label>
     </owl:Class>
     
@@ -3602,8 +3601,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective emotional feeling of restlessness, a state of not being calm, of an agitation to do something. </obo:IAO_0000115>
         <obo:MFOEM_000165>restless</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of restlessness, a state of not being calm, of an agitation to do something.</rdfs:isDefinedBy>
         <rdfs:label>feeling restless</rdfs:label>
     </owl:Class>
     
@@ -3613,8 +3612,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000080"/>
-        <obo:IAO_0000115>The subjective emotional feeling of exhaustion, an extremely strong form of feeling tired. </obo:IAO_0000115>
         <obo:MFOEM_000165>exhausted</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective emotional feeling of exhaustion, an extremely strong form of feeling tired.</rdfs:isDefinedBy>
         <rdfs:label>feeling exhausted</rdfs:label>
     </owl:Class>
     
@@ -3624,7 +3623,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000003"/>
-        <obo:IAO_0000115></obo:IAO_0000115>
+        <rdfs:isDefinedBy></rdfs:isDefinedBy>
         <rdfs:label>shivering</rdfs:label>
     </owl:Class>
     
@@ -3634,8 +3633,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective feeling of being calm, being relaxed, being at peace. </obo:IAO_0000115>
         <obo:MFOEM_000165>calm</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective feeling of being calm, being relaxed, being at peace.</rdfs:isDefinedBy>
         <rdfs:label>feeling calm</rdfs:label>
     </owl:Class>
     
@@ -3654,9 +3653,9 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective feeling of not being in control, not being able to gain agency of one&apos;s own behavior. </obo:IAO_0000115>
         <obo:MFOEM_000165>out of control</obo:MFOEM_000165>
         <rdfs:comment>May have an evaluative component as well as a feeling component. Needs discussing.</rdfs:comment>
+        <rdfs:isDefinedBy>The subjective feeling of not being in control, not being able to gain agency of one&apos;s own behavior.</rdfs:isDefinedBy>
         <rdfs:label>feeling out of control</rdfs:label>
     </owl:Class>
     
@@ -3675,8 +3674,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective feeling of strength, capability, energy and capacity to do things. </obo:IAO_0000115>
         <obo:MFOEM_000165>strong</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective feeling of strength, capability, energy and capacity to do things.</rdfs:isDefinedBy>
         <rdfs:label>feeling strong</rdfs:label>
     </owl:Class>
     
@@ -3686,8 +3685,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective feeling of weakness, lack of energy and/or capability, faintness, absence of strength. </obo:IAO_0000115>
         <obo:MFOEM_000165>weak</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective feeling of weakness, lack of energy and/or capability, faintness, absence of strength.</rdfs:isDefinedBy>
         <rdfs:label>feeling weak</rdfs:label>
     </owl:Class>
     
@@ -3706,8 +3705,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective feeling of being wide awake, alert, having active attention and perception. </obo:IAO_0000115>
         <obo:MFOEM_000165>alert</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective feeling of being wide awake, alert, having active attention and perception.</rdfs:isDefinedBy>
         <rdfs:label>feeling alert</rdfs:label>
     </owl:Class>
     
@@ -3735,8 +3734,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000006"/>
-        <obo:IAO_0000115>The subjective feeling of being not at ease, of being anxious or nervous or agitated. </obo:IAO_0000115>
         <obo:MFOEM_000165>nervous</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>The subjective feeling of being not at ease, of being anxious or nervous or agitated.</rdfs:isDefinedBy>
         <rdfs:label>feeling nervous</rdfs:label>
     </owl:Class>
     
@@ -3746,7 +3745,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000004"/>
-        <obo:IAO_0000115>A behavioural process that involves a change in the expression of the face. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A behavioural process that involves a change in the expression of the face.</rdfs:isDefinedBy>
         <rdfs:label>facial expression behaviour</rdfs:label>
     </owl:Class>
     
@@ -3756,7 +3755,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the person smiles. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the person smiles.</rdfs:isDefinedBy>
         <rdfs:label>smiling</rdfs:label>
     </owl:Class>
     
@@ -3766,7 +3765,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the jaw drops.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the jaw drops.</rdfs:isDefinedBy>
         <rdfs:label>jaw dropping</rdfs:label>
     </owl:Class>
     
@@ -3776,7 +3775,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the lips are tightly pressed together. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the lips are tightly pressed together.</rdfs:isDefinedBy>
         <rdfs:label>pressing lips together</rdfs:label>
     </owl:Class>
     
@@ -3786,7 +3785,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the eyebrows are raised. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the eyebrows are raised.</rdfs:isDefinedBy>
         <rdfs:label>raising eyebrows</rdfs:label>
     </owl:Class>
     
@@ -3796,7 +3795,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the person frowns. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the person frowns.</rdfs:isDefinedBy>
         <rdfs:label>frowning</rdfs:label>
     </owl:Class>
     
@@ -3806,7 +3805,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the eyes are closed. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the eyes are closed.</rdfs:isDefinedBy>
         <rdfs:label>closing eyes</rdfs:label>
     </owl:Class>
     
@@ -3816,7 +3815,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour in which the eyes are opened widely. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour in which the eyes are opened widely.</rdfs:isDefinedBy>
         <rdfs:label>opening eyes widely</rdfs:label>
     </owl:Class>
     
@@ -3826,7 +3825,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>A facial expression behaviour which appears very neutral (showing no expression). </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A facial expression behaviour which appears very neutral (showing no expression).</rdfs:isDefinedBy>
         <rdfs:label>neutral expression</rdfs:label>
     </owl:Class>
     
@@ -3845,7 +3844,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000134"/>
-        <obo:IAO_0000115>A bodily movement behaviour which involves abrupt movements.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A bodily movement behaviour which involves abrupt movements.</rdfs:isDefinedBy>
         <rdfs:label>moving abruptly</rdfs:label>
     </owl:Class>
     
@@ -3855,7 +3854,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000134"/>
-        <obo:IAO_0000115>A bodily movement behaviour which involves moving, or leaning, towards people (approach).</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A bodily movement behaviour which involves moving, or leaning, towards people (approach).</rdfs:isDefinedBy>
         <rdfs:label>moving towards people</rdfs:label>
     </owl:Class>
     
@@ -3865,7 +3864,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000134"/>
-        <obo:IAO_0000115>A bodily movement behaviour which involves moving, or leaning, away from people (avoidance). </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A bodily movement behaviour which involves moving, or leaning, away from people (avoidance).</rdfs:isDefinedBy>
         <rdfs:label>moving away from people</rdfs:label>
     </owl:Class>
     
@@ -3875,7 +3874,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000134"/>
-        <obo:IAO_0000115>A bodily movement behaviour which involves remaining still. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A bodily movement behaviour which involves remaining still.</rdfs:isDefinedBy>
         <rdfs:label>staying still</rdfs:label>
     </owl:Class>
     
@@ -4011,7 +4010,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking with a voice louder than usual. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking with a voice louder than usual.</rdfs:isDefinedBy>
         <rdfs:label>speaking loudly</rdfs:label>
     </owl:Class>
     
@@ -4021,7 +4020,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking with a voice softer than usual.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking with a voice softer than usual.</rdfs:isDefinedBy>
         <rdfs:label>speaking softly</rdfs:label>
     </owl:Class>
     
@@ -4031,7 +4030,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking with a voice that is hesitant or trembling. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking with a voice that is hesitant or trembling.</rdfs:isDefinedBy>
         <rdfs:label>speaking with trembling voice</rdfs:label>
     </owl:Class>
     
@@ -4041,7 +4040,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking with a voice that is confident and assertive.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking with a voice that is confident and assertive.</rdfs:isDefinedBy>
         <rdfs:label>speaking assertively</rdfs:label>
     </owl:Class>
     
@@ -4051,7 +4050,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Remaining silent, not producing spoken utterances. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Remaining silent, not producing spoken utterances.</rdfs:isDefinedBy>
         <rdfs:label>not speaking</rdfs:label>
     </owl:Class>
     
@@ -4061,7 +4060,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking behaviour in which a short utterance is produced.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking behaviour in which a short utterance is produced.</rdfs:isDefinedBy>
         <rdfs:label>speaking a short utterance</rdfs:label>
     </owl:Class>
     
@@ -4071,7 +4070,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking behaviour in which a long utterance is produced. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking behaviour in which a long utterance is produced.</rdfs:isDefinedBy>
         <rdfs:label>speaking a long utterance</rdfs:label>
     </owl:Class>
     
@@ -4081,7 +4080,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking with an altered rhythm or melody of speech relative to the norm for that person. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking with an altered rhythm or melody of speech relative to the norm for that person.</rdfs:isDefinedBy>
         <rdfs:label>speaking with altered speech melody</rdfs:label>
     </owl:Class>
     
@@ -4091,7 +4090,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking in a manner which is disturbed relative to what is the norm for that person. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking in a manner which is disturbed relative to what is the norm for that person.</rdfs:isDefinedBy>
         <rdfs:label>speaking in a disturbed fashion</rdfs:label>
     </owl:Class>
     
@@ -4101,7 +4100,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking in a manner that is faster than the norm for that person.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking in a manner that is faster than the norm for that person.</rdfs:isDefinedBy>
         <rdfs:label>speaking at a faster rate</rdfs:label>
     </owl:Class>
     
@@ -4111,7 +4110,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>Speaking in a manner that is slower than the norm for that person. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Speaking in a manner that is slower than the norm for that person.</rdfs:isDefinedBy>
         <rdfs:label>speaking at a slower rate</rdfs:label>
     </owl:Class>
     
@@ -4121,8 +4120,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000026"/>
-        <obo:IAO_0000115>A severe episode of fear with strong associated discomfort and thoughts of impending harm. </obo:IAO_0000115>
         <obo:MFOEM_000165>panicked</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A severe episode of fear with strong associated discomfort and thoughts of impending harm.</rdfs:isDefinedBy>
         <rdfs:label>panic</rdfs:label>
     </owl:Class>
     
@@ -4244,7 +4243,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000125"/>
-        <obo:IAO_0000115>Characteristic facial expressions that are made when a person is undergoing a so-called &quot;basic&quot; emotions. These are canonical, that is, individual facial expressions when undergoing emotions can vary or not change at all. However, research indicates evidence for the existence of characteristic canonical facial expressions that are displayed when experiencing certain emotions even across cultures. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Characteristic facial expressions that are made when a person is undergoing a so-called &quot;basic&quot; emotions. These are canonical, that is, individual facial expressions when undergoing emotions can vary or not change at all. However, research indicates evidence for the existence of characteristic canonical facial expressions that are displayed when experiencing certain emotions even across cultures.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical emotional facial expression</rdfs:label>
     </owl:Class>
     
@@ -4302,7 +4301,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000035"/>
-        <obo:IAO_0000115>A complex emotion that consists of the experience of pleasure as caused by the misfortune of others. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>A complex emotion that consists of the experience of pleasure as caused by the misfortune of others.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">schadenfreude</rdfs:label>
     </owl:Class>
     
@@ -4312,7 +4311,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000152"/>
-        <obo:IAO_0000115>The vocal utterances associated with the characteristic sound of an emotion. Obviously, any particular emotional instance may be associated with a great variety of different types of voice utterances or no voice utterances at all. However, &quot;canonical&quot; or characteristic voice utterances can be associated with core emotions. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>The vocal utterances associated with the characteristic sound of an emotion. Obviously, any particular emotional instance may be associated with a great variety of different types of voice utterances or no voice utterances at all. However, &quot;canonical&quot; or characteristic voice utterances can be associated with core emotions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical emotional voice utterances</rdfs:label>
     </owl:Class>
     
@@ -4338,7 +4337,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000183"/>
-        <obo:IAO_0000115>Vocal utterances canonically associated with the experience of fear</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Vocal utterances canonically associated with the experience of fear</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical fearful voice utterance</rdfs:label>
     </owl:Class>
     
@@ -4348,7 +4347,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000183"/>
-        <obo:IAO_0000115>Voice utterances characteristically associated with the experience of disgust. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>Voice utterances characteristically associated with the experience of disgust.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical disgusted voice utterance</rdfs:label>
     </owl:Class>
     
@@ -4358,7 +4357,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000183"/>
-        <obo:IAO_0000115>Voice utterance characteristically associated with the experience of happiness.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Voice utterance characteristically associated with the experience of happiness.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical happy voice utterance</rdfs:label>
     </owl:Class>
     
@@ -4374,7 +4373,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Voice utterance characteristically associated with the experience of sadness.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Voice utterance characteristically associated with the experience of sadness.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical sad voice utterance</rdfs:label>
     </owl:Class>
     
@@ -4384,7 +4383,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000183"/>
-        <obo:IAO_0000115>Voice utterance canonically associated with the experience of surprise</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Voice utterance canonically associated with the experience of surprise</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">canonical surprised voice utterance</rdfs:label>
     </owl:Class>
     
@@ -4394,7 +4393,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents a judgement that one is being disliked</obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents a judgement that one is being disliked</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">appraisal as being disliked</rdfs:label>
     </owl:Class>
     
@@ -4404,7 +4403,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000005"/>
-        <obo:IAO_0000115>An appraisal that represents a judgement that one is being liked</obo:IAO_0000115>
+        <rdfs:isDefinedBy>An appraisal that represents a judgement that one is being liked</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">appraisal as being liked</rdfs:label>
     </owl:Class>
     
@@ -4414,8 +4413,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000195"/>
-        <obo:IAO_0000115>A mood process is a mental process that involves affect (is valenced), and gives rise to a number of behavioural dispositions, but unlike an emotion has no object. Moods are usually longer-lived than emotion processes, but there are exceptions.</obo:IAO_0000115>
         <rdfs:comment>Moods are more difficult to individuate into types than emotions. We may speak of a good mood, a bad mood, or suchlike. We may also speak of being in an angry mood or other moods which take their identity from emotions. These often accompany a heightened disposition to undergo the emotion they are named for. </rdfs:comment>
+        <rdfs:isDefinedBy>A mood process is a mental process that involves affect (is valenced), and gives rise to a number of behavioural dispositions, but unlike an emotion has no object. Moods are usually longer-lived than emotion processes, but there are exceptions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">mood process</rdfs:label>
     </owl:Class>
     
@@ -4434,7 +4433,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
     <!-- http://purl.obolibrary.org/obo/MFOEM_000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000195">
-        <obo:IAO_0000115>An affective process is any process that has positive or negative valence. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An affective process is any process that has positive or negative valence. d</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">affective process</rdfs:label>
     </owl:Class>
     
@@ -4450,7 +4449,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An anxious mood is a general feeling of mild fearfulness and a heightened disposition to experience fear and other negatively valenced emotions.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>An anxious mood is a general feeling of mild fearfulness and a heightened disposition to experience fear and other negatively valenced emotions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">anxious mood</rdfs:label>
     </owl:Class>
     
@@ -4466,7 +4465,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An irritable mood is a general feeling of mild annoyance, a heightened disposition to anger and other negatively valenced emotions. </obo:IAO_0000115>
+        <rdfs:isDefinedBy>An irritable mood is a general feeling of mild annoyance, a heightened disposition to anger and other negatively valenced emotions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">irritable mood</rdfs:label>
     </owl:Class>
     
@@ -4482,7 +4481,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cheerful mood is a general feeling of well-being and a heightened disposition to happiness, amusement and other positively valenced emotions.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A cheerful mood is a general feeling of well-being and a heightened disposition to happiness, amusement and other positively valenced emotions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">cheerful mood</rdfs:label>
     </owl:Class>
     
@@ -4492,8 +4491,8 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000001"/>
-        <obo:IAO_0000115>A positive emotion reflecting energy and passion for something.</obo:IAO_0000115>
         <obo:MFOEM_000165>enthusiastic</obo:MFOEM_000165>
+        <rdfs:isDefinedBy>A positive emotion reflecting energy and passion for something.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">enthusiasm</rdfs:label>
     </owl:Class>
     
@@ -4503,7 +4502,7 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000193"/>
-        <obo:IAO_0000115>A merry mood is a general feeling of enjoyment and festivity and a heightened disposition to experience happiness, joy and other positively valenced emotions.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A merry mood is a general feeling of enjoyment and festivity and a heightened disposition to experience happiness, joy and other positively valenced emotions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">merry mood</rdfs:label>
     </owl:Class>
     
@@ -4522,11 +4521,11 @@ While it is tempting not to categorise this as an appraisal at all, it should be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000202"/>
-        <obo:IAO_0000115>pain is a bodily process in an organism S, involving two integrated levels: 
+        <rdfs:comment>Here `phenomenologically similar&apos; means inter alia: (1) that the experience is `of&apos; or is `targeted towards&apos; some region R of the body of S, so that all pain is in this sense (and however diffusely) localized; (2) that the experience involves a dimension of unpleasantness which -- as is shown by the case of pain asymbolia -- is not necessarily of the sort that involves suffering or aversion on the part of the subject S. </rdfs:comment>
+        <rdfs:isDefinedBy>pain is a bodily process in an organism S, involving two integrated levels: 
 (a) activation of the nociceptive system and associated emotion generating brain components of S, and 
 (b) a simultaneous aversive sensory and emotional experience on the part of S, 
-where (b) is phenomenologically similar to the sort of aversive experience involved in pain with concordant tissue damage.</obo:IAO_0000115>
-        <rdfs:comment>Here `phenomenologically similar&apos; means inter alia: (1) that the experience is `of&apos; or is `targeted towards&apos; some region R of the body of S, so that all pain is in this sense (and however diffusely) localized; (2) that the experience involves a dimension of unpleasantness which -- as is shown by the case of pain asymbolia -- is not necessarily of the sort that involves suffering or aversion on the part of the subject S. </rdfs:comment>
+where (b) is phenomenologically similar to the sort of aversive experience involved in pain with concordant tissue damage.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">pain</rdfs:label>
     </owl:Class>
     
@@ -4580,7 +4579,7 @@ where (b) is phenomenologically similar to the sort of aversive experience invol
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Surprise with a positive valence</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Surprise with a positive valence</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">positive surprise</rdfs:label>
     </owl:Class>
     
@@ -4596,7 +4595,7 @@ where (b) is phenomenologically similar to the sort of aversive experience invol
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Surprise with a negative valence.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>Surprise with a negative valence.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">negative surprise</rdfs:label>
     </owl:Class>
     
@@ -4617,7 +4616,7 @@ where (b) is phenomenologically similar to the sort of aversive experience invol
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000001"/>
-        <obo:IAO_0000115>A positive emotion is an emotion that has a positive valence.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A positive emotion is an emotion that has a positive valence.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">positive emotion</rdfs:label>
     </owl:Class>
     
@@ -4638,7 +4637,7 @@ where (b) is phenomenologically similar to the sort of aversive experience invol
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000001"/>
-        <obo:IAO_0000115>A negative emotion is an emotion that has a negative valence.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A negative emotion is an emotion that has a negative valence.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">negative emotion</rdfs:label>
     </owl:Class>
     
@@ -4667,7 +4666,7 @@ where (b) is phenomenologically similar to the sort of aversive experience invol
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOEM_000193"/>
-        <obo:IAO_0000115>A gloomy mood is a general feeling of being down, having a negative outlook and a heightened disposition to experience negatively valenced emotions.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>A gloomy mood is a general feeling of being down, having a negative outlook and a heightened disposition to experience negatively valenced emotions.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">gloomy mood</rdfs:label>
     </owl:Class>
     
@@ -4685,10 +4684,6 @@ where (b) is phenomenologically similar to the sort of aversive experience invol
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115>Primary disorders of initiating or maintaining sleep or of excessive sleepiness and are characterized by abnormalities in the amount, quality or timing of sleep.
-
-DSM-IV-TR (american Psychiatric Association)
-</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="es">disomnias</obo:IAO_0000118>
         <obo:MFOMD_0000037>307.42  Primary Insomnia
 307.44  Primary Hypersomnia
@@ -4719,6 +4714,9 @@ This section includes:
 
 DSM-IV-TR (american Psychiatric Association)
 </rdfs:comment>
+        <rdfs:isDefinedBy>Primary disorders of initiating or maintaining sleep or of excessive sleepiness and are characterized by abnormalities in the amount, quality or timing of sleep.
+
+DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">primary sleep disorder: dyssomnia</rdfs:label>
     </owl:Class>
     
@@ -4728,10 +4726,6 @@ DSM-IV-TR (american Psychiatric Association)
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115>Disorders characterised by abnormal behavioural or physiological events occurring in association with sleep, specific sleep stages, or sleep-wake transitions.
-
-DSM-IV-TR (american Psychiatric Association)
-</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="es">parasomnias</obo:IAO_0000118>
         <obo:MFOMD_0000037>307.47  Nightmare Disorder
 307.46  Sleep Terror Disorder
@@ -4754,6 +4748,9 @@ F51.8  Parasomnia Not Otherwise Specified</obo:MFOMD_0000069>
 DSM-IV-TR (american Psychiatric Association)
 
 </rdfs:comment>
+        <rdfs:isDefinedBy>Disorders characterised by abnormal behavioural or physiological events occurring in association with sleep, specific sleep stages, or sleep-wake transitions.
+
+DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">primary sleep disorder: parasomnia</rdfs:label>
     </owl:Class>
     
@@ -4763,13 +4760,9 @@ DSM-IV-TR (american Psychiatric Association)
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOMD_0000024"/>
-        <obo:IAO_0000115>
-A subjective complaint of difficulty falling or staying asleep or poor sleep quality.
+        <rdfs:isDefinedBy>A subjective complaint of difficulty falling or staying asleep or poor sleep quality.
 
-DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
-        <obo:IAO_0000115>A subjective complaint of difficulty falling or staying asleep or poor sleep quality.
-
-DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
+DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">insomnia</rdfs:label>
     </owl:Class>
     
@@ -4779,11 +4772,11 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOMD_0000089"/>
-        <obo:IAO_0000115>Parasomnia characterized by the loss of normal skeletal muscle atonia during REM sleep with prominent motor activity accompanying dreaming. 
-
-
-http://brain.oxfordjournals.org/content/130/11/2770.short</obo:IAO_0000115>
         <obo:IAO_0000118>RBD</obo:IAO_0000118>
+        <rdfs:isDefinedBy>Parasomnia characterized by the loss of normal skeletal muscle atonia during REM sleep with prominent motor activity accompanying dreaming. 
+
+
+http://brain.oxfordjournals.org/content/130/11/2770.short</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">REM sleep behaviour disorder</rdfs:label>
     </owl:Class>
     
@@ -4793,12 +4786,11 @@ http://brain.oxfordjournals.org/content/130/11/2770.short</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115>Disorder in which the major sleep episode is delayed in relation to the desired clock time, resulting in symptoms of sleep-onset insomnia or difficulty in awakening at the desired time.
+        <rdfs:isDefinedBy>Disorder in which the major sleep episode is delayed in relation to the desired clock time, resulting in symptoms of sleep-onset insomnia or difficulty in awakening at the desired time.
 
 
 The International Classification of Sleep Disorders, Revised. Diagnostic and Coding Manual
-(American Academy of Sleep Medicine in association with the European Sleep Research Society, Japanese Society of Sleep Research and Latin American Sleep Society)
-</obo:IAO_0000115>
+(American Academy of Sleep Medicine in association with the European Sleep Research Society, Japanese Society of Sleep Research and Latin American Sleep Society)</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">delayed sleep-phase syndrome</rdfs:label>
     </owl:Class>
     
@@ -4808,11 +4800,11 @@ The International Classification of Sleep Disorders, Revised. Diagnostic and Cod
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOMD_0000024"/>
-        <obo:IAO_0000115>Dream that can cause a strong emotional response from the mind, typically fear or horror, but also despair, anxiety and great sadness. The dream may contain situations of danger, discomfort, psychological or physical terror. </obo:IAO_0000115>
         <rdfs:comment>
 Nightmares can have physical causes such as sleeping in an uncomfortable or awkward position, having a fever, or psychological causes such as stress, anxiety, and ingestion of opioid drugs.
 
 http://en.wikipedia.org/wiki/Nightmare</rdfs:comment>
+        <rdfs:isDefinedBy>Dream that can cause a strong emotional response from the mind, typically fear or horror, but also despair, anxiety and great sadness. The dream may contain situations of danger, discomfort, psychological or physical terror.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">nightmare</rdfs:label>
     </owl:Class>
     
@@ -4822,9 +4814,9 @@ http://en.wikipedia.org/wiki/Nightmare</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_535"/>
-        <obo:IAO_0000115>The essential feature of this disorder is a prominent disturbance in sleep that is sufficiently severe to warrant independent clinical attention., and is judged to be due to the direct physiological effects of a substance.
+        <rdfs:isDefinedBy>The essential feature of this disorder is a prominent disturbance in sleep that is sufficiently severe to warrant independent clinical attention., and is judged to be due to the direct physiological effects of a substance.
 
-DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
+DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">substance-induced sleep disorder</rdfs:label>
     </owl:Class>
     
@@ -4834,10 +4826,10 @@ DSM-IV-TR (american Psychiatric Association)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOMD_0000024"/>
-        <obo:IAO_0000115>State of near-sleep, a strong desire for sleep, or sleeping for unusually long periods.
-
-wikipedia</obo:IAO_0000115>
         <obo:IAO_0000118>sleepiness</obo:IAO_0000118>
+        <rdfs:isDefinedBy>State of near-sleep, a strong desire for sleep, or sleeping for unusually long periods.
+
+wikipedia</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">somnolence</rdfs:label>
     </owl:Class>
     
@@ -4859,6 +4851,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Contrary"/>
+        <rdfs:comment>willing to please</rdfs:comment>
     </owl:Class>
     
 
@@ -4978,6 +4971,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>fully developed and mature</rdfs:comment>
     </owl:Class>
     
 
@@ -5013,6 +5007,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Consistent"/>
+        <rdfs:comment>disposed to seek adventure or to cope with the new and unknown</rdfs:comment>
     </owl:Class>
     
 
@@ -5068,6 +5063,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Disagreeable"/>
+        <rdfs:comment>ready or willing to agree or consent</rdfs:comment>
     </owl:Class>
     
 
@@ -5088,6 +5084,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#SelfFocused"/>
+        <rdfs:comment>having or showing an unselfish concern for the welfare of others</rdfs:comment>
     </owl:Class>
     
 
@@ -5134,6 +5131,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#NonArtistic"/>
+        <rdfs:comment>of, relating to, or characteristic of art or artists</rdfs:comment>
     </owl:Class>
     
 
@@ -5174,6 +5172,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Demure"/>
+        <rdfs:comment>disposed to or characterized by bold or confident statements and behavior</rdfs:comment>
     </owl:Class>
     
 
@@ -5259,6 +5258,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Deliberate"/>
+        <rdfs:comment>showing or requiring a fearless daring spirit</rdfs:comment>
     </owl:Class>
     
 
@@ -5279,6 +5279,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ExcitementSeeker"/>
+        <rdfs:comment>free from agitation, excitement, or disturbance</rdfs:comment>
     </owl:Class>
     
 
@@ -5319,6 +5320,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Dutiful"/>
+        <rdfs:comment>having no worries or troubles</rdfs:comment>
     </owl:Class>
     
 
@@ -5400,6 +5402,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Solemn"/>
+        <rdfs:comment>full of good spirits</rdfs:comment>
     </owl:Class>
     
 
@@ -5446,6 +5449,8 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Open"/>
+        <rdfs:comment>not open
+rigidly excluding outside influence</rdfs:comment>
     </owl:Class>
     
 
@@ -5487,6 +5492,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Philosophical"/>
+        <rdfs:comment>People engaged in concrete thinking are focused on facts in the here and now, physical objects, and literal definitions</rdfs:comment>
     </owl:Class>
     
 
@@ -5522,6 +5528,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#SelfConscious"/>
+        <rdfs:comment>full of conviction : CERTAIN</rdfs:comment>
     </owl:Class>
     
 
@@ -5542,6 +5549,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Impulsive"/>
+        <rdfs:comment>METICULOUS, CAREFUL</rdfs:comment>
     </owl:Class>
     
 
@@ -5565,6 +5573,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>thoughtful of the rights and feelings of others</rdfs:comment>
     </owl:Class>
     
 
@@ -5599,6 +5608,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>possessing firmness or coherence</rdfs:comment>
     </owl:Class>
     
 
@@ -5619,6 +5629,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Driven"/>
+        <rdfs:comment>CONTENTED, SATISFIED</rdfs:comment>
     </owl:Class>
     
 
@@ -5638,6 +5649,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>being so different as to be at opposite extremes</rdfs:comment>
     </owl:Class>
     
 
@@ -5662,6 +5674,8 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unConventional"/>
+        <rdfs:comment>ordinary
+lacking originality or individuality</rdfs:comment>
     </owl:Class>
     
 
@@ -5691,6 +5705,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>of penetrating intellect : WISE</rdfs:comment>
     </owl:Class>
     
 
@@ -5725,6 +5740,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>characterized by or resulting from careful and thorough consideration</rdfs:comment>
     </owl:Class>
     
 
@@ -5744,6 +5760,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>affectedly modest, reserved, or serious</rdfs:comment>
     </owl:Class>
     
 
@@ -5763,6 +5780,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>marked by ill temper</rdfs:comment>
     </owl:Class>
     
 
@@ -5783,6 +5801,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#EmotionallyAware"/>
+        <rdfs:comment>not influenced by strong feeling</rdfs:comment>
     </owl:Class>
     
 
@@ -5818,6 +5837,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Imaginative"/>
+        <rdfs:comment>PRACTICAL</rdfs:comment>
     </owl:Class>
     
 
@@ -5854,6 +5874,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>determined to succeed : highly energetic and motivated</rdfs:comment>
     </owl:Class>
     
 
@@ -5873,6 +5894,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>filled with or motivated by a sense of duty</rdfs:comment>
     </owl:Class>
     
 
@@ -5992,6 +6014,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>being past middle age</rdfs:comment>
     </owl:Class>
     
 
@@ -6016,6 +6039,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unEmotional"/>
+        <rdfs:comment>dominated by or prone to emotion</rdfs:comment>
     </owl:Class>
     
 
@@ -6035,6 +6059,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>having the ability to recognise and make sense of not just your own emotions, but also those of others</rdfs:comment>
     </owl:Class>
     
 
@@ -6055,6 +6080,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#HardHearted"/>
+        <rdfs:comment>involving, characterized by, or based on empathy</rdfs:comment>
     </owl:Class>
     
 
@@ -6091,6 +6117,7 @@ wikipedia</obo:IAO_0000115>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#LaidBack"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unEnergetic"/>
+        <rdfs:comment>operating with or marked by vigor or effect</rdfs:comment>
     </owl:Class>
     
 
@@ -6158,6 +6185,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Introvert"/>
+        <rdfs:comment>a gregarious and unreserved person</rdfs:comment>
     </owl:Class>
     
 
@@ -6184,6 +6212,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#MildTempered"/>
+        <rdfs:comment>easily provoked</rdfs:comment>
     </owl:Class>
     
 
@@ -6262,6 +6291,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>moodily cross</rdfs:comment>
     </owl:Class>
     
 
@@ -6281,6 +6311,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>lacking in sympathetic understanding : UNFEELING, PITILESS</rdfs:comment>
     </owl:Class>
     
 
@@ -6301,6 +6332,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#SelfControlled"/>
+        <rdfs:comment>devoted to the pursuit of pleasure</rdfs:comment>
     </owl:Class>
     
 
@@ -6338,6 +6370,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unImaginative"/>
+        <rdfs:comment>of, relating to, or characterized by imagination</rdfs:comment>
     </owl:Class>
     
 
@@ -6392,6 +6425,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>prone to act on impulse</rdfs:comment>
     </owl:Class>
     
 
@@ -6430,6 +6464,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Sociable"/>
+        <rdfs:comment>not subject to control by others : SELF-GOVERNING</rdfs:comment>
     </owl:Class>
     
 
@@ -6473,6 +6508,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>developed or chiefly guided by the intellect rather than by emotion or experience : RATIONAL</rdfs:comment>
     </owl:Class>
     
 
@@ -6493,6 +6529,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Persistent"/>
+        <rdfs:comment>stopping or ceasing for a time</rdfs:comment>
     </owl:Class>
     
 
@@ -6512,6 +6549,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>a reserved or shy person who enjoys spending time alone</rdfs:comment>
     </owl:Class>
     
 
@@ -6531,6 +6569,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>having a relaxed style or character</rdfs:comment>
     </owl:Class>
     
 
@@ -6571,6 +6610,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#NonDepressed"/>
+        <rdfs:comment>depression of spirits</rdfs:comment>
     </owl:Class>
     
 
@@ -6598,6 +6638,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>Having the ability to accept or tolerate delays, problems, or suffering. patient. forbearing.</rdfs:comment>
     </owl:Class>
     
 
@@ -6621,6 +6662,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>irresponsibly playful</rdfs:comment>
     </owl:Class>
     
 
@@ -6641,6 +6683,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Proud"/>
+        <rdfs:comment>neither bold nor self-assertive : tending toward diffidence</rdfs:comment>
     </owl:Class>
     
 
@@ -6717,6 +6760,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Stable"/>
+        <rdfs:comment>an emotionally unstable individual</rdfs:comment>
     </owl:Class>
     
 
@@ -6737,6 +6781,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ProneToWorry"/>
+        <rdfs:comment>being without worries, fears, or doubts</rdfs:comment>
     </owl:Class>
     
 
@@ -6756,6 +6801,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not of, relating to, or characteristic of art or artists</rdfs:comment>
     </owl:Class>
     
 
@@ -6775,6 +6821,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not suffering from psychological depression</rdfs:comment>
     </owl:Class>
     
 
@@ -6798,6 +6845,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>too interested in what other people are doing and wanting to discover too much about them</rdfs:comment>
     </owl:Class>
     
 
@@ -6817,6 +6865,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>free from reserve or pretense : FRANK</rdfs:comment>
     </owl:Class>
     
 
@@ -6868,6 +6917,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Unstructured"/>
+        <rdfs:comment>neat,orderly</rdfs:comment>
     </owl:Class>
     
 
@@ -6888,6 +6938,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Reserved"/>
+        <rdfs:comment>openly friendly and responsive : EXTROVERTED</rdfs:comment>
     </owl:Class>
     
 
@@ -6922,6 +6973,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>continues doing something or tries to do something in a determined but often unreasonable way</rdfs:comment>
     </owl:Class>
     
 
@@ -6952,6 +7004,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>characterized by the attitude of a philosopher specifically calm or unflinching in the face of trouble, defeat, or loss</rdfs:comment>
     </owl:Class>
     
 
@@ -6971,6 +7024,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>to worry just a fancy word for it</rdfs:comment>
     </owl:Class>
     
 
@@ -6990,6 +7044,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>having or displaying excessive self-esteem</rdfs:comment>
     </owl:Class>
     
 
@@ -7013,6 +7068,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>being on time : PROMPT</rdfs:comment>
     </owl:Class>
     
 
@@ -7036,6 +7092,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>set or being at rest or at ease</rdfs:comment>
     </owl:Class>
     
 
@@ -7060,6 +7117,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unReliable"/>
+        <rdfs:comment>suitable or fit to be relied on : DEPENDABLE</rdfs:comment>
     </owl:Class>
     
 
@@ -7094,6 +7152,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>a person who doesn&apos;t share his feelings, thoughts or emotions</rdfs:comment>
     </owl:Class>
     
 
@@ -7190,6 +7249,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#SelfDoubting"/>
+        <rdfs:comment>sure of oneself : SELF-CONFIDENT</rdfs:comment>
     </owl:Class>
     
 
@@ -7210,6 +7270,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unselfconscious"/>
+        <rdfs:comment>conscious of one&apos;s own acts or states as belonging to or originating in oneself</rdfs:comment>
     </owl:Class>
     
 
@@ -7229,6 +7290,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>restraint exercised over one&apos;s own impulses, emotions, or desires</rdfs:comment>
     </owl:Class>
     
 
@@ -7248,6 +7310,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>given to self-doubt</rdfs:comment>
     </owl:Class>
     
 
@@ -7267,6 +7330,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>concerned solely or chiefly with one&apos;s own interests, welfare, etc.</rdfs:comment>
     </owl:Class>
     
 
@@ -7291,6 +7355,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unSensitive"/>
+        <rdfs:comment>easily hurt emotionally</rdfs:comment>
     </owl:Class>
     
 
@@ -7314,6 +7379,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>free from vanity : MODEST</rdfs:comment>
     </owl:Class>
     
 
@@ -7373,6 +7439,7 @@ wikipedia</obo:IAO_0000115>
             </owl:Class>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#unSociable"/>
+        <rdfs:comment>inclined to seek or enjoy companionship</rdfs:comment>
     </owl:Class>
     
 
@@ -7396,6 +7463,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>emotionally responsive : SYMPATHETIC</rdfs:comment>
     </owl:Class>
     
 
@@ -7415,6 +7483,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>someone or something serious, sincere or impressive</rdfs:comment>
     </owl:Class>
     
 
@@ -7457,6 +7526,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not subject to insecurity or emotional illness</rdfs:comment>
     </owl:Class>
     
 
@@ -7480,6 +7550,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>severe in discipline</rdfs:comment>
     </owl:Class>
     
 
@@ -7499,6 +7570,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>resposnive to stress</rdfs:comment>
     </owl:Class>
     
 
@@ -7536,6 +7608,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>inclined to tolerate</rdfs:comment>
     </owl:Class>
     
 
@@ -7594,6 +7667,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>lacking structure and organization</rdfs:comment>
     </owl:Class>
     
 
@@ -7652,6 +7726,8 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>marked by or full of clever humor or wit
+using words in a clever and funny way</rdfs:comment>
     </owl:Class>
     
 
@@ -7751,6 +7827,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>of, relating to, or being a category of fiction that is primarily intended for adolescent</rdfs:comment>
     </owl:Class>
     
 
@@ -7827,6 +7904,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>pity for oneself especially a self-indulgent dwelling on one&apos;s own sorrows or misfortunes</rdfs:comment>
     </owl:Class>
     
 
@@ -7854,6 +7932,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>full of talk</rdfs:comment>
         <rdfs:label xml:lang="en">Talkative</rdfs:label>
     </owl:Class>
     
@@ -7897,6 +7976,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not conventional : not bound by or in accordance with convention : being out of the ordinary</rdfs:comment>
     </owl:Class>
     
 
@@ -7920,6 +8000,8 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not emotional
+not easily aroused or get excited</rdfs:comment>
     </owl:Class>
     
 
@@ -7943,6 +8025,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>lacking energy or enterprise</rdfs:comment>
     </owl:Class>
     
 
@@ -7966,6 +8049,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>having or showing a lack of imagination or originality</rdfs:comment>
     </owl:Class>
     
 
@@ -7989,6 +8073,9 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not reliable 
+undependable
+untrustworthy</rdfs:comment>
     </owl:Class>
     
 
@@ -8012,6 +8099,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>lacking feeling or tact</rdfs:comment>
     </owl:Class>
     
 
@@ -8035,6 +8123,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>having or showing a disinclination for social activity</rdfs:comment>
     </owl:Class>
     
 
@@ -8058,6 +8147,7 @@ wikipedia</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment>not self-conscious</rdfs:comment>
         <rdfs:label xml:lang="en">Unselfconscious</rdfs:label>
     </owl:Class>
     
