@@ -193,7 +193,7 @@ height:30px;
         <h1 style="margin-left: 35%;
         text-transform: capitalize;font-family: sans-serif;color: grey;">sleep habits</h1>
 
-        <form action="${pageContext.request.contextPath}/sleep" method="post">
+        <form method="post">
           <label for="fname">UserName</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name.." >
           <label for="personality" style="text-transform: capitalize;">i can describe myself as: </label>
@@ -201,6 +201,7 @@ height:30px;
             <ul class="ks-cboxtags" >
             
             <%
+            session.setAttribute("username", request.getParameter("firstname"));
             CCOntology o=new CCOntology();
             ArrayList<String> b=o.getPersonality();
             ArrayList<String> labelNames=new ArrayList();
