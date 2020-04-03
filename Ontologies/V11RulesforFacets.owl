@@ -2165,7 +2165,7 @@ DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
     <!-- http://purl.obolibrary.org/obo/GO_0042755 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042755">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific behavior of an organism relating to the intake of food, any substance (usually solid) that can be metabolized by an organism to give energy and build tissue.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eating behavior</rdfs:label>
@@ -2176,7 +2176,7 @@ DSM-IV-TR (american Psychiatric Association)</rdfs:isDefinedBy>
     <!-- http://purl.obolibrary.org/obo/GO_0042756 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042756">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific behavior of an organism relating to the intake of liquids, especially water.</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking behavior</rdfs:label>
@@ -4911,7 +4911,7 @@ wikipedia</rdfs:isDefinedBy>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Human"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ageBased"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5954,7 +5954,7 @@ lacking originality or individuality</rdfs:comment>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Human"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ageBased"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6433,7 +6433,7 @@ lacking originality or individuality</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Inconsistent_sleep_tiime -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Inconsistent_sleep_tiime">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors"/>
         <rdfs:label xml:lang="en">Inconsistent sleep tiime</rdfs:label>
     </owl:Class>
     
@@ -6442,7 +6442,7 @@ lacking originality or individuality</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Inconsistent_wakeup_time -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Inconsistent_wakeup_time">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors"/>
         <rdfs:label xml:lang="en">Inconsistent wakeup time</rdfs:label>
     </owl:Class>
     
@@ -7695,7 +7695,7 @@ lacking originality or individuality</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Watching_tv -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Watching_tv">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#entertainment_behavior"/>
         <rdfs:label xml:lang="en">watching tv</rdfs:label>
     </owl:Class>
     
@@ -7768,6 +7768,7 @@ using words in a clever and funny way</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Human"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ageBased"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7832,10 +7833,18 @@ using words in a clever and funny way</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ageBased -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#ageBased">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#Human"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#alcohol_use -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#alcohol_use">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior"/>
         <rdfs:label xml:lang="en">alcohol use</rdfs:label>
     </owl:Class>
     
@@ -7844,8 +7853,17 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#caffeine_use -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#caffeine_use">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior"/>
         <rdfs:label xml:lang="en">caffeine use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:label>consumption behavior</rdfs:label>
     </owl:Class>
     
 
@@ -7853,8 +7871,17 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#daytimeNap -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#daytimeNap">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors"/>
         <rdfs:label xml:lang="en">daytime Nap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#entertainment_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#entertainment_behavior">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:label>entertainment behavior</rdfs:label>
     </owl:Class>
     
 
@@ -7862,7 +7889,7 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#having_uncomfortabel_bed -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#having_uncomfortabel_bed">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors"/>
         <rdfs:label xml:lang="en">having uncomfortabel bed</rdfs:label>
     </owl:Class>
     
@@ -7871,7 +7898,7 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#internet_use -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#internet_use">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#entertainment_behavior"/>
         <rdfs:label xml:lang="en">internet use</rdfs:label>
     </owl:Class>
     
@@ -7880,7 +7907,7 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#reading -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#reading">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#entertainment_behavior"/>
     </owl:Class>
     
 
@@ -7905,6 +7932,15 @@ using words in a clever and funny way</rdfs:comment>
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:comment>pity for oneself especially a self-indulgent dwelling on one&apos;s own sorrows or misfortunes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:label>sleep behaviors</rdfs:label>
     </owl:Class>
     
 
@@ -7941,7 +7977,7 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#tobacco_use -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#tobacco_use">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#consumption_behavior"/>
         <rdfs:label xml:lang="en">tobacco use</rdfs:label>
     </owl:Class>
     
@@ -7950,7 +7986,7 @@ using words in a clever and funny way</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#trouble_sleeping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#trouble_sleeping">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors"/>
         <rdfs:comment xml:lang="en">not sure yet</rdfs:comment>
         <rdfs:label xml:lang="en">trouble Sleeping</rdfs:label>
     </owl:Class>
@@ -8156,7 +8192,7 @@ untrustworthy</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#use_of_sleep_medication -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#use_of_sleep_medication">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#sleep_behaviors"/>
         <rdfs:label xml:lang="en">use of sleep medication</rdfs:label>
     </owl:Class>
     
@@ -8165,7 +8201,7 @@ untrustworthy</rdfs:comment>
     <!-- http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#video_games -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#video_games">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aliaelbolock/ontologies/2019/9/cc#entertainment_behavior"/>
         <rdfs:label xml:lang="en">palying video games</rdfs:label>
     </owl:Class>
     
